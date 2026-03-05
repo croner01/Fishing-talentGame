@@ -1,5 +1,5 @@
 # Dockerfile
-FROM nginx:alpine
+FROM hub.ecns.io/library/nginx:stable
 
 # 复制项目文件到 Nginx 默认目录
 COPY . /usr/share/nginx/html
